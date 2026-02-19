@@ -1,7 +1,7 @@
 # AI-Assistant-General-Knowledge-
-
+04/15/2026 - 05/15/2026
 A general-purpose personal AI assistant designed to help with daily tasks, learning, career, planning, writing, and decision-making, while grounding answers in your own documents and remembering personal preferences over time.
-The system uses Retrieval-Augmented Generation (RAG) to ground responses in user-provided documents. Uploaded materials such as PDFs, notes, and project files are processed, chunked, embedded, and stored in a vector database. When a user submits a query, the system retrieves the most relevant document segments and injects them into the prompt before generating a response. This approach improves factual accuracy, reduces hallucinations, and ensures context-aware assistance.
+The system uses Retrieval-Augmented Generation (RAG) to ground responses in user-provided documents. Uploaded materials such as PDFs, notes, and project files are processed, chunked, embedded, and stored in a vector database. When a user submits a query, the system retrieves the most relevant document segments and injects them into the prompt before generating a response.
 
 Programming Language: Python
 
