@@ -1,20 +1,102 @@
-# AI-Assistant-General-Knowledge-
-04/15/2026 - 05/15/2026
-A general-purpose personal AI assistant designed to help with daily tasks, learning, career, planning, writing, and decision-making, while grounding answers in your own documents and remembering personal preferences over time.
-The system uses Retrieval-Augmented Generation (RAG) to ground responses in user-provided documents. Uploaded materials such as PDFs, notes, and project files are processed, chunked, embedded, and stored in a vector database. When a user submits a query, the system retrieves the most relevant document segments and injects them into the prompt before generating a response.
+# AI Assistant – General Knowledge (Javier)
 
-Programming Language: Python
+A personal AI assistant designed to help with learning, planning, writing, and decision-making while grounding responses in user-provided documents.
 
-Backend Framework: FastAPI
+The assistant uses **Retrieval-Augmented Generation (RAG)** to search and reason over uploaded documents.
 
-Framework: LlamaIndex
+---
 
-Embeddings: OpenAI Embeddings API 
+## Features
 
-Vector Database : Chroma (local) 
+- Document ingestion (PDF, DOCX, TXT)
+- Semantic search using embeddings
+- Local vector database with Chroma
+- FastAPI backend for API access
+- Question answering grounded in personal documents
 
-Relational Database:  PostgreSQL
+---
 
-Document Processing: PyPDF, python-docx
+## Architecture
 
-Optional Frontend: Streamlit (initial prototype), React (planned upgrade)
+User Question
+↓  
+FastAPI Backend  
+↓  
+LlamaIndex Retrieval  
+↓  
+Chroma Vector Database  
+↓  
+OpenAI Embeddings + Model  
+↓  
+Grounded Answer  
+
+---
+
+## Tech Stack
+
+- Python
+- FastAPI
+- LlamaIndex
+- OpenAI API
+- Chroma Vector Database
+- PyPDF
+- python-docx
+
+---
+
+## Project Structure
+
+AI-Assistant-General-Knowledge
+│
+├── app
+│ ├── main.py
+│ ├── rag.py
+│ ├── loaders.py
+│ ├── config.py
+│ └── schemas.py
+│
+├── documents
+├── chroma_db
+├── requirements.txt
+├── README.md
+└── LICENSE  
+
+
+---
+
+## How to Run
+
+1. Clone the repository
+
+2. Create virtual environment
+
+3. Install dependencies
+
+4. Add environment variables
+
+Create `.env
+
+5. Start the backend
+
+6. Open API docs
+
+---
+
+## Example API Request
+
+---
+POST /ask
+{
+"question": "What is this document about?"
+}
+
+---
+
+## Future Improvements
+
+- Add conversation memory
+- Add source citations
+- Build a frontend interface (React / Streamlit)
+- Support multiple document collections
+
+
