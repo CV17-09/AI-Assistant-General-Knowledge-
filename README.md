@@ -1,4 +1,4 @@
-AI Assistant – General Knowledge (Javier)
+🤖 AI Assistant – General Knowledge (Javier)
 
 A personal AI assistant built to help with learning, planning, writing, productivity, and decision-making while grounding every response in your uploaded documents.
 
