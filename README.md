@@ -36,6 +36,7 @@ User Question
 🤖 OpenAI Embeddings + Model
      ↓
 ✅ Grounded Answer
+
 🛠️ Tech Stack
 
 🐍 Python
@@ -47,6 +48,7 @@ User Question
 📝 python-docx
 
 📂 Project Structure
+
 AI-Assistant-General-Knowledge/
 │── app/
 │   ├── main.py
@@ -60,15 +62,19 @@ AI-Assistant-General-Knowledge/
 │── requirements.txt
 │── README.md
 └── LICENSE
+
 🚀 How to Run
 1️⃣ Clone the Repository
 git clone https://github.com/yourusername/AI-Assistant-General-Knowledge.git
 cd AI-Assistant-General-Knowledge
+
 2️⃣ Create Virtual Environment
 python -m venv venv
 source venv/bin/activate
+
 3️⃣ Install Dependencies
 pip install -r requirements.txt
+
 4️⃣ Add Environment Variables
 
 Create a .env file:
@@ -76,13 +82,16 @@ Create a .env file:
 OPENAI_API_KEY=your_api_key_here
 5️⃣ Start the Backend
 uvicorn app.main:app --reload
+
 6️⃣ Open API Docs
 http://127.0.0.1:8000/docs
+
 📬 Example API Request
 POST /ask
 {
   "question": "What is this document about?"
 }
+
 🌟 Future Improvements
 
 🧠 Add conversation memory
