@@ -24,6 +24,7 @@ Uses Chroma for storing searchable embeddings locally
 🔍 Smart Retrieval Pipeline
 Combines LlamaIndex + OpenAI for context-aware answers
 
+```text
 🏗️ Architecture
 User Question
      ↓
@@ -36,6 +37,7 @@ User Question
 🤖 OpenAI Embeddings + Model
      ↓
 ✅ Grounded Answer
+```
 
 🛠️ Tech Stack
 
@@ -47,8 +49,9 @@ User Question
 📄 PyPDF
 📝 python-docx
 
-📂 Project Structure
+## 📂 Project Structure
 
+```text
 AI-Assistant-General-Knowledge/
 │── app/
 │   ├── main.py
@@ -62,7 +65,7 @@ AI-Assistant-General-Knowledge/
 │── requirements.txt
 │── README.md
 └── LICENSE
-
+```
 🚀 How to Run
 1️⃣ Clone the Repository
 git clone https://github.com/yourusername/AI-Assistant-General-Knowledge.git
@@ -82,7 +85,6 @@ Create a .env file:
 OPENAI_API_KEY=your_api_key_here
 5️⃣ Start the Backend
 uvicorn app.main:app --reload
-
 6️⃣ Open API Docs
 http://127.0.0.1:8000/docs
 
