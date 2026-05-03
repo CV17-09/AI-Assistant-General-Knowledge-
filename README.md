@@ -66,6 +66,7 @@ AI-Assistant-General-Knowledge/
 │── README.md
 └── LICENSE
 ```
+```text
 🚀 How to Run
 1️⃣ Clone the Repository
 git clone https://github.com/yourusername/AI-Assistant-General-Knowledge.git
@@ -87,12 +88,15 @@ OPENAI_API_KEY=your_api_key_here
 uvicorn app.main:app --reload
 6️⃣ Open API Docs
 http://127.0.0.1:8000/docs
+```
 
+```text
 📬 Example API Request
 POST /ask
 {
   "question": "What is this document about?"
 }
+```
 
 🌟 Future Improvements
 
