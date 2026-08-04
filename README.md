@@ -6,7 +6,7 @@
 
 # 🚀 Overview
 
-Javier is an AI-powered personal assistant designed to help users learn, research, write, plan, and make informed decisions using their own knowledge base.
+under review - Javier is an AI-powered personal assistant designed to help users learn, research, write, plan, and make informed decisions using their own knowledge base.
 
 Rather than generating answers from memory alone, Javier first searches uploaded documents to retrieve the most relevant information before generating a response. This Retrieval-Augmented Generation (RAG) approach produces more accurate, explainable, and trustworthy answers.
 
